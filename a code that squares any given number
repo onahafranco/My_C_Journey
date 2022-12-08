@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+void numbersquare()
+{
+    int number;
+    int square = number * number;
+
+    printf("input your number here: ");
+    scanf("%d", &number);
+    printf("square of %d is %d\n", number, number * number);
+}
+
+int main()
+{
+    numbersquare();
+    printf("franco's code  ");
+
+    return (0);
+}
